@@ -1,0 +1,148 @@
+body {
+    font-family:mulish, times new roman, sans-serif;
+    margin-left: 20px;
+    margin: 0 auto;
+}
+main{ 
+    margin: 0;
+    padding: 0 24px;
+}
+#start{
+    padding: 5px 25px;
+}
+header{
+
+}
+
+h1, h2,h3{
+    font-family: "space mono", "Times New Roman", Sans-Serif;
+}
+
+#nav-list{
+    display:inline-flex;
+    width: 30%;
+    justify-content: space-between;
+    
+}
+
+.nav{
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.nav:visited{
+    padding: 5px 16px;
+    border-radius: 20px;
+    background-color: rgb(28, 74, 80);
+}
+.nav:hover{
+    padding: 5px 16px;
+    border-radius: 20px;
+    background-color: lavender;
+    transition: 0.5s;
+}
+#sl{
+    list-style: none;
+    padding: 7px 15px;
+    margin-right: 16px;
+    border: 1px ;
+    border-radius: 25px;
+    background-color: rgb(104, 104, 212);
+    text-align: center;
+}
+.sl {
+    display:inline-flex;
+    flex: wrap;
+    width: 100%;
+    
+}
+
+#sk{
+    color:darkslateblue;
+    font-weight: 2em;
+}
+
+#sk1, #sk2{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 25px 15px;
+    text-align: center;
+}
+
+.sk{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    width: 90%;
+    margin: 10px auto;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.work{
+    border-left: 5px solid darkslateblue;
+    padding: 10px 20px ;
+}
+
+#contact{
+    padding-top: 20px;
+    
+}
+
+input {
+       width: 100%;
+      margin: 10px 0;
+      padding: 7px 0px 7px 10px;
+}
+#message{
+   padding: 0px 0px 40px 10px;
+}
+
+button{
+    padding: 10px 27px;
+    background-color: darkslateblue;
+    color: white;
+    border-radius: 25px;
+    margin: 10px 0 50px;
+    cursor: grabbing;
+}
+
+button:hover{
+    background-color: lavender;
+    color: rgb(15, 3, 22);
+    transition: 0.5s;
+}
+
+/*#mask1{
+  -webkit-mask-image:url(laptop.png);
+  mask-image:url(laptop.png);
+  mask-repeat:no-repeat;
+  mask-position:center;
+}*/
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-top: 1px solid e5e7eb ;
+background-color: rgb(38, 66, 66);
+color:white;
+width: 100%;
+padding: 50px ;
+margin-top: 48px;
+}
+
+.links a {
+    font-size: 16px;
+    color: white;
+    padding: 10px;/
+}
