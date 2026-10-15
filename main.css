@@ -2,7 +2,8 @@ body {
     font-family:mulish, times new roman, sans-serif;
     margin-left: 20px;
     margin: 0 auto;
-    
+    background-color: lavender;
+    padding: 0;
 }
 main{ 
     margin: 0;
@@ -15,6 +16,7 @@ main{
     font-size: 1.2em;
 }
 header{
+    padding-top: 30px;
     background-color: white;
     margin: 0 ;
 }
