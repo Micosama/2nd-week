@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+}
+
+
 body {
     font-family:mulish, times new roman, sans-serif;
     margin-left: 20px;
@@ -68,7 +73,7 @@ h1, h2,h3{
 }
 .sl {
     display:inline-flex;
-    flex: wrap;
+    flex-wrap: wrap;
     width: 100%;
     gap:10px;
     
@@ -83,7 +88,20 @@ h1, h2,h3{
         padding: 6px 9px;
         font-size: 0.9rem;
     }
+    #nav-list{
+    display:inline-flex;
+    width: 30%;
+    justify-content: space-between;
+    gap: 10px;
+
+    
 }
+.footer{
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+}
+
 
 #sk{
     color:darkslateblue;
@@ -161,10 +179,10 @@ a{
 display: flex;
 justify-content: space-between;
 align-items: center;
-border-top: 1px solid e5e7eb ;
+border-top: 1px solid darkgrey;
 background-color: darkslateblue;
 color:white;
-width: 100%;
+/*width: 100%;*/
 padding: 50px ;
 margin-top: 48px;
 }
@@ -174,3 +192,4 @@ margin-top: 48px;
     color: white;
     padding: 10px;
 }
+
