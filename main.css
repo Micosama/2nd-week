@@ -2,16 +2,27 @@ body {
     font-family:mulish, times new roman, sans-serif;
     margin-left: 20px;
     margin: 0 auto;
+    
 }
 main{ 
     margin: 0;
     padding: 0 24px;
+    background-color: lavender;
 }
 #start{
-    padding: 5px 25px;
+    padding: 0px 25px;
+    font-weight: 700;
+    font-size: 1.2em;
 }
 header{
+    background-color: white;
+    margin: 0 ;
+}
 
+#about{
+    padding-top: 15px;
+    margin-top: 15px;
+    
 }
 
 h1, h2,h3{
@@ -22,12 +33,14 @@ h1, h2,h3{
     display:inline-flex;
     width: 30%;
     justify-content: space-between;
+
     
 }
 
 .nav{
     text-decoration: none;
     padding-right: 10px;
+    color: dodgerblue;
 }
 
 .nav:visited{
@@ -38,8 +51,9 @@ h1, h2,h3{
 .nav:hover{
     padding: 5px 16px;
     border-radius: 20px;
-    background-color: lavender;
+    background-color: darkslateblue;
     transition: 0.5s;
+    color: white;
 }
 #sl{
     list-style: none;
@@ -54,7 +68,19 @@ h1, h2,h3{
     display:inline-flex;
     flex: wrap;
     width: 100%;
+    gap:10px;
     
+}
+
+@media (max-width: 600px) {
+    .sl {
+        gap: 6px;
+    }
+
+    .sl li {
+        padding: 6px 9px;
+        font-size: 0.9rem;
+    }
 }
 
 #sk{
@@ -134,7 +160,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 border-top: 1px solid e5e7eb ;
-background-color: rgb(38, 66, 66);
+background-color: darkslateblue;
 color:white;
 width: 100%;
 padding: 50px ;
@@ -144,5 +170,5 @@ margin-top: 48px;
 .links a {
     font-size: 16px;
     color: white;
-    padding: 10px;/
+    padding: 10px;
 }
