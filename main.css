@@ -79,6 +79,14 @@ h1, h2,h3{
     
 }
 
+@media (min-width:600px) {
+    .nav:focus {
+  background-color: rgb(28, 74, 80);
+  color: white;
+  outline: none; 
+    }
+}
+
 @media (max-width: 600px) {
     .sl {
         gap: 6px;
