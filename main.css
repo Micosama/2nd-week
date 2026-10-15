@@ -84,6 +84,7 @@ h1, h2,h3{
   background-color: rgb(28, 74, 80);
   color: white;
   outline: none; 
+        gap: 20px;
     }
 }
 
